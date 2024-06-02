@@ -111,3 +111,16 @@ li a:hover {
     justify-content: space-around;
     align-items: center;
 }
+
+.img {
+    height: 400px;
+    width: 400px;
+    background: url(images/pexels-chitokan-2183027-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.title-style {
+    display: flex;
+    align-items: center;
+}
