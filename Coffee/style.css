@@ -102,8 +102,9 @@ li a:hover {
 
 }
 
+/* Our story start */
 #our-story {
-    height: 100vh;
+    /* height: 100vh; */
     margin-top: 15%;
     color: #fff;
     display: flex;
@@ -124,3 +125,28 @@ li a:hover {
     display: flex;
     align-items: center;
 }
+
+.title {
+    font-family: "Playfair Display", serif;
+    color: #fff;
+    font-size: 4rem;
+    transform: translateX(-100px);
+}
+
+.line {
+    width: 100px;
+    height: 2px;
+    background: #fff;
+    transform: translateX(-120px);
+
+}
+
+.section-content p {
+  max-width: 500px;
+  color: #fff;
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+/* Our story ends */
